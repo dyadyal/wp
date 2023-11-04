@@ -23,9 +23,9 @@ jobs:
       - name: 📂 Выгрузка файлов на удаленный сервер
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: 
-          username: 
-          password: 
+          server: hostdl.beget.tech
+          username: hostdl_wp
+          password: BV1T*jBn
           local-dir: dist/
           exclude: |
             /.git*
